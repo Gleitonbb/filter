@@ -80,7 +80,7 @@ cursos.map((upu,pos)=>{
            
             alert('[Erro] escolha um nome abaixo para adicionar outro nome antes')
         }
-    })   
+    }) 
      botaoDepois.addEventListener('click',(evt)=>{
         const nomeClic = ReceberEvento()
         try{
