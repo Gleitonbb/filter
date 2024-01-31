@@ -7,20 +7,28 @@
 </head>
 <body>
     <script>
+       const idades = [25,88,10,12,55,52,44,41,74,23,28,31,70,65,61,23]
+    //    const maior = (valor,pos,arr) =>{
+    //      if(valor <= 25)
+    //         return valor
+    //      }
+    //      const MaiorIdade = idades.filter(maior)
+    //         console.log(MaiorIdade)
+    //      console.log(idades)
+    const maiorIdade = idades.filter((upu, pos, arr)=>{
+        if(upu <= 25)
+
+        return upu
        
-     const idades = [8,12,22,88,52,45,16,6] 
-      
-     const maiorFilter = (num) =>{
-        if(num < 25)
-        return num
-     }
-
-     let maior = idades.filter(maiorFilter)
-
-     console.log(idades)
-     console.log(maior)
-
+    })
+    const menorIdade = idades.filter((up)=>{
+        if(up >= 25)
+        return up
+    })
+    console.log(menorIdade)
+    console.log(maiorIdade)
     
+         
     </script>
 </body>
 </html>
